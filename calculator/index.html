@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="main">
+            <p class="title">Calculator</p>
+            <div class="container" align="right">
+                <p class="js-expression expression"></p>
+                <p class="js-result result"></p>
+                <img class="js-delete-button" src="image/delete-image.png">
+            </div>
+
+            <hr>
+
+            <div>
+                <p>
+                    <button class="js-operator-button button" id="(">(</button>
+                    <button class="js-operator-button button" id=")">)</button>
+                    <button class="js-operator-button button" id="/100">%</button>
+                    <button class="js-operator-button button" id="/">&#247</button>
+                </p>
+                <p>
+                    <button class="js-number-button button">7</button>
+                    <button class="js-number-button button">8</button>
+                    <button class="js-number-button button">9</button>
+                    <button class="js-operator-button button" id="*">&#215;</button>
+                </p>
+                <p>
+                    <button class="js-number-button button">4</button>
+                    <button class="js-number-button button">5</button>
+                    <button class="js-number-button button">6</button>
+                    <button class="js-operator-button button" id="-">&#8722;</button>
+                </p>
+                <p>
+                    <button class="js-number-button button">1</button>
+                    <button class="js-number-button button">2</button>
+                    <button class="js-number-button button">3</button>
+                    <button class="js-operator-button mode-button" id="+">&#43;</button>
+                </p>
+                <p>
+                    <button class="js-clear-button button">C</button>
+                    <button class="js-number-button button">0</button>
+                    <button class="js-number-button button">.</button>
+                    <button class="js-equal-button equal-button">&#61;</button>
+                </p>
+            </div>
+
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>

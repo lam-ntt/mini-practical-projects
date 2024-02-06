@@ -1,0 +1,66 @@
+body {
+    background-color:  #c0cdd3;
+    color: #54626b;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 335px;
+}
+
+.container {
+    width: 300px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+hr {
+    color: #c1ced4;
+}
+
+.expression {
+    width: 300px;
+    height: 20px;
+    font-size: 40px;
+}
+
+.result {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    background-color: #8ca3a9;
+    color: #54626b;
+    border: none;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.button, 
+.equal-button,
+.mode-button {
+    font-size: 25px;
+}
+
+.equal-button {
+    background-color: #5b5f5e;
+    color: white;
+}
+
